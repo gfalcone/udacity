@@ -1,0 +1,26 @@
+[
+	{
+		"ParameterKey": "EnvironmentName",
+		"ParameterValue": "UdacityProject"
+	},
+	{
+		"ParameterKey": "EC2InstanceNumber",
+		"ParameterValue": "4"
+	},
+	{
+		"ParameterKey": "HealthCheckIntervalSecondsNumber",
+		"ParameterValue": "35"
+	},
+	{
+		"ParameterKey": "HealthCheckTimeoutSecondsNumber",
+		"ParameterValue": "30"
+	},
+	{
+		"ParameterKey": "HealthyThresholdCountNumber",
+		"ParameterValue": "2"
+	},
+	{
+		"ParameterKey": "UnhealthyThresholdCountNumber",
+		"ParameterValue": "5"
+	}
+]

@@ -2,32 +2,26 @@ Parameters:
   EnvironmentName:
     Description: An environment name that will be prefixed to resources
     Type: String
-    Default: "UdacityProject"
   
   EC2InstanceNumber:
     Description: Number of EC2 instances that will host the website
     Type: String
-    Default: '4'
 
   HealthCheckIntervalSecondsNumber:
     Description: Number of seconds to wait before performing health checks
     Type: Number
-    Default: 35
 
   HealthCheckTimeoutSecondsNumber:
     Description: Number of seconds before timeout when performing health checks
     Type: Number
-    Default: 30
 
   HealthyThresholdCountNumber:
     Description: Threshold defining the number of requests made to determine that server is healthy
     Type: Number
-    Default: 2
 
   UnhealthyThresholdCountNumber:
     Description: Threshold defining hte number of failed requests to determine that server is unhealthy
     Type: Number
-    Default: 5
 
 Resources:
   LBSecGroup:
